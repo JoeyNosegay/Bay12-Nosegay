@@ -539,3 +539,15 @@
 	name = "pullover sweater"
 	desc = "A sweater made of a soft material with a short zipper on the collar."
 	icon_state = "pullover"
+
+/obj/item/clothing/suit/iolauscoat
+	name = "iolan provincial guard coat"
+	desc = "A maroon parade coat for the Iolan Provincial Guard."
+	icon_state = "iolauscoat"
+	valid_accessory_slots = list(ACCESSORY_SLOT_RANK)
+
+/obj/item/clothing/suit/iolauscoat_o
+	name = "iolan provincial guard officers coat"
+	desc = "A maroon parade coat for an officer of the Iolan Provincial Guard."
+	icon_state = "iolauscoat_o"
+	valid_accessory_slots = list(ACCESSORY_SLOT_RANK)
